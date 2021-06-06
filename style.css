@@ -1,0 +1,237 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+
+/* header section  */
+
+header {
+    background-color: rgb(36, 36, 121);
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .top {
+    color: white;
+    display: flex;
+}
+
+header .top .logo {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .top .logo img {
+    height: 30px;
+}
+
+header .top .text {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list ul {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+.list ul li {
+    margin-left: 10px;
+    font-size: 10px;
+    list-style: none;
+}
+
+.list ul li i {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.list ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+/* PM covid banner */
+
+.banner img {
+    width: 100%;
+}
+
+
+/* helpline */
+
+.helpline {
+    margin: 50px 0px;
+}
+
+.helpline h3 {
+    text-align: center;
+}
+
+.helpline .help {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    margin: 10px 5px;
+}
+
+.helpline .help .slot {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px;
+}
+
+.helpline .help .slot .icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.helpline .help .slot .icon i {
+    font-size: 30px;
+}
+
+.helpline .help .slot .text .what {
+    font-weight: 900;
+}
+
+.helpline .help .slot .text .no {
+    color: blueviolet;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+.images {
+    background-color: rgb(235, 255, 13);
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.images h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+.images .all {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.images .all .slot {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.images .all .slot .icons img {
+    width: 130px;
+}
+
+.images .all .slot .text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.images .all .slot .text h4 {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.images .btn {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images .btn .btn1 {
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.images .btn .btn1 a {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(2, 2, 36);
+    font-weight: 800;
+    transition: 0.5s all ease;
+    text-align: center;
+}
+
+.images .btn .btn1 a:hover {
+    background-color: rgb(244, 244, 244);
+    color: rgb(11, 3, 40);
+}
+
+
+/* our partners */
+
+.partner .text {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.partner .images {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.partner .images .image {
+    width: auto;
+    height: auto;
+}
+
+.partner .images .image img {
+    width: 100px;
+    margin: 10px 20px;
+}
+
+@media only screen and (max-width:700px) {
+    .partner .images {
+        flex-direction: column;
+    }
+    .helpline .help {
+        flex-direction: column;
+    }
+}
