@@ -144,9 +144,24 @@
             margin: 10px 20px;
         }
         
+        .text .symbol {
+            text-align: center;
+            font-size: 30px;
+            padding: 10px 0;
+            color: red;
+        }
+        
         @media only screen and (max-width:700px) {
             .partner .images {
                 flex-direction: column;
+            }
+            section .slot {
+                flex-direction: column;
+            }
+            section .slot .text {
+                width: 100%;
+                border: none;
+                margin: 20px 0;
             }
         }
     </style>
@@ -177,6 +192,9 @@
         </div>
         <div class="slot">
             <div class="text" id="one">
+                <div class="symbol">
+                    ✘
+                </div>
                 <ol>
                     <li>Register and schedule your vaccination in advance</li>
                     <li>Register online through Co-WIN OR Aarogya Setu OR UMANG platform</li>
@@ -191,6 +209,9 @@
                 </ol>
             </div>
             <div class="text">
+                <div class="symbol">
+                    ✓
+                </div>
                 <ol>
                     <li>Walk-in without appointment One-person register in multiple platforms</li>
                     <li>One-person register using multiple phone number and multiple ID proof</li>
